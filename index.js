@@ -1,9 +1,9 @@
 //array of drivers
-const drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
+//const drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
 
 //lists the first two drivers in new array
-const returnFirstTwoDrivers = function (drivers) {
-    return drivers.slice(0, 2);
+const returnFirstTwoDrivers = function (i) {
+    return i.slice(0, 2);
 }
 
 //lists the last two drivers in new array
